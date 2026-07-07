@@ -1,0 +1,57 @@
+[
+  {
+    "id": "prompt-diagnostico-perfil-ig",
+    "titulo": "Diagnóstico rápido de perfil no Instagram",
+    "resumo": "Prompt que analisa bio, feed e posicionamento de um perfil e devolve 3 pontos fortes, 3 gargalos e um plano de 7 dias.",
+    "tipo": "Prompt",
+    "tags": ["instagram", "copy", "diagnostico"],
+    "autor": "Comunidade SIA",
+    "data": "2026-07-05",
+    "fonte": "",
+    "conteudo": "Você é um estrategista de conteúdo para Instagram. Vou te passar o print da bio e os títulos dos últimos 9 posts de um perfil.\n\nSua tarefa:\n1. Resuma em 1 frase qual é o posicionamento atual percebido.\n2. Liste 3 pontos fortes concretos.\n3. Liste os 3 maiores gargalos que travam o crescimento.\n4. Entregue um plano de 7 dias (1 ação por dia) para destravar o principal gargalo.\n\nSeja direto, sem rodeios, e use linguagem de quem já vendeu no digital.\n\nBio: [COLE AQUI]\nÚltimos posts: [COLE AQUI]"
+  },
+  {
+    "id": "skill-cc-revisor-copy",
+    "titulo": "Skill Claude Code: revisor de copy",
+    "resumo": "Arquivo SKILL.md que transforma o Claude Code num revisor de copy de vendas, aplicando AIDA e cortando gordura.",
+    "tipo": "Skill Claude Code",
+    "tags": ["claude-code", "copy", "automacao"],
+    "autor": "Comunidade SIA",
+    "data": "2026-07-06",
+    "fonte": "",
+    "conteudo": "---\nname: revisor-copy\ndescription: Revisa copy de vendas aplicando AIDA, cortando gordura e apontando promessas fracas. Use quando o usuário colar uma legenda, e-mail ou página de vendas para melhorar.\n---\n\n# Revisor de Copy\n\nQuando o usuário fornecer um texto de venda:\n\n1. Classifique cada bloco em Atenção / Interesse / Desejo / Ação.\n2. Aponte onde a promessa está vaga ou não é crível.\n3. Reescreva a abertura em 2 variações mais fortes.\n4. Liste 3 cortes de gordura (palavras/frases que podem sair sem perda).\n\nNunca invente números ou provas que o usuário não deu."
+  },
+  {
+    "id": "template-reels-3-atos",
+    "titulo": "Roteiro de Reels em 3 atos",
+    "resumo": "Template de roteiro pra Reels com gancho, desenvolvimento e CTA — preenchimento em minutos.",
+    "tipo": "Template Instagram",
+    "tags": ["instagram", "reels", "roteiro"],
+    "autor": "Comunidade SIA",
+    "data": "2026-07-04",
+    "fonte": "",
+    "conteudo": "GANCHO (0-3s): [Frase que quebra o padrão ou faz uma promessa/pergunta forte]\n\nDESENVOLVIMENTO (3-20s):\n- Ponto 1: [contexto do problema]\n- Ponto 2: [virada / insight]\n- Ponto 3: [prova ou exemplo rápido]\n\nCTA (20-30s): [Ação única e clara — comente uma palavra, salve, siga]\n\nLEGENDA: [Reforço do gancho + 1 pergunta pra puxar comentário]\nHASHTAGS: [3 a 5 relevantes]"
+  },
+  {
+    "id": "automacao-resumo-lives",
+    "titulo": "Resumo automático de lives e aulas",
+    "resumo": "Workflow que pega a transcrição de uma live e devolve resumo, principais insights e cortes sugeridos pra Reels.",
+    "tipo": "Automação",
+    "tags": ["automacao", "conteudo", "repurpose"],
+    "autor": "Comunidade SIA",
+    "data": "2026-07-06",
+    "fonte": "",
+    "conteudo": "Entrada: transcrição bruta de uma live/aula.\n\nPeça ao modelo:\n1. Resumo executivo em até 5 bullets.\n2. Os 3 melhores momentos para virar Reels (com timestamp aproximado e o gancho de cada um).\n3. 5 ideias de post derivadas do conteúdo.\n4. Uma frase de impacto para usar como legenda-âncora.\n\nPrompt base: \"Você é editor de conteúdo. A partir da transcrição abaixo, gere os 4 itens acima. Priorize o que gera salvamento e compartilhamento. Transcrição: [COLE]\""
+  },
+  {
+    "id": "prompt-ofertas-gancho",
+    "titulo": "Gerador de 10 ganchos de oferta",
+    "resumo": "Prompt que gera 10 ângulos de gancho para a mesma oferta, variando dor, desejo e prova.",
+    "tipo": "Prompt",
+    "tags": ["copy", "oferta", "vendas"],
+    "autor": "Comunidade SIA",
+    "data": "2026-07-03",
+    "fonte": "",
+    "conteudo": "Você é copywriter de resposta direta. Vou descrever uma oferta.\n\nGere 10 ganchos de abertura para ela, cada um explorando um ângulo diferente:\n- 3 focados em dor/frustração\n- 3 focados em desejo/aspiração\n- 2 focados em prova/autoridade\n- 2 focados em objeção quebrada\n\nCada gancho com no máximo 2 linhas. Nada genérico.\n\nOferta: [DESCREVA AQUI — o que é, pra quem, principal transformação]"
+  }
+]
